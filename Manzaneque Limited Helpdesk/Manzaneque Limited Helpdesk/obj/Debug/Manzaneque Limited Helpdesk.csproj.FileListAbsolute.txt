@@ -1,0 +1,18 @@
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\bin\Debug\Manzaneque Limited Helpdesk.exe.config
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\bin\Debug\Manzaneque Limited Helpdesk.exe
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\bin\Debug\Manzaneque Limited Helpdesk.pdb
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\bin\Debug\aa\Manzaneque Limited Helpdesk.resources.dll
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\Manzaneque Limited Helpdesk.csproj.AssemblyReference.cache
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\Manzaneque_Limited_Helpdesk.Form1.resources
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\Manzaneque_Limited_Helpdesk.Form2.resources
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\Manzaneque_Limited_Helpdesk.Form3.resources
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\Manzaneque_Limited_Helpdesk.Form4.resources
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\Manzaneque_Limited_Helpdesk.Properties.Resources.resources
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\Manzaneque_Limited_Helpdesk.Form4.aa.resources
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\Manzaneque Limited Helpdesk.csproj.GenerateResource.cache
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\Manzaneque Limited Helpdesk.csproj.CoreCompileInputs.cache
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\aa\Manzaneque Limited Helpdesk.resources.dll
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\Manzaneque Limited Helpdesk.exe
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\Manzaneque Limited Helpdesk.pdb
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\bin\Debug\MySql.Data.dll
+D:\ANC\Database\Database\Manzaneque Limited Helpdesk\Manzaneque Limited Helpdesk\obj\Debug\Manzaneque Limited Helpdesk.csproj.CopyComplete

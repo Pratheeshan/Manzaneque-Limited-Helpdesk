@@ -1,0 +1,977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtactprblm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12pt, style=Bold</value>
+  </data>
+  <data name="txtactprblm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 359</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtactprblm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtactprblm.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtactprblm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 50</value>
+  </data>
+  <data name="txtactprblm.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="&gt;&gt;txtactprblm.Name" xml:space="preserve">
+    <value>txtactprblm</value>
+  </data>
+  <data name="&gt;&gt;txtactprblm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtactprblm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtactprblm.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lbllicense.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbllicense.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="lbllicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 367</value>
+  </data>
+  <data name="lbllicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 29</value>
+  </data>
+  <data name="lbllicense.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="lbllicense.Text" xml:space="preserve">
+    <value>Actual problem</value>
+  </data>
+  <data name="&gt;&gt;lbllicense.Name" xml:space="preserve">
+    <value>lbllicense</value>
+  </data>
+  <data name="&gt;&gt;lbllicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbllicense.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbllicense.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 311</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 29</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Problem Type</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtserialNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12pt, style=Bold</value>
+  </data>
+  <data name="txtserialNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 101</value>
+  </data>
+  <data name="txtserialNum.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txtserialNum.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtserialNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 36</value>
+  </data>
+  <data name="txtserialNum.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="&gt;&gt;txtserialNum.Name" xml:space="preserve">
+    <value>txtserialNum</value>
+  </data>
+  <data name="&gt;&gt;txtserialNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtserialNum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtserialNum.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblserialNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblserialNumber.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="lblserialNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 108</value>
+  </data>
+  <data name="lblserialNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 29</value>
+  </data>
+  <data name="lblserialNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="lblserialNumber.Text" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="&gt;&gt;lblserialNumber.Name" xml:space="preserve">
+    <value>lblserialNumber</value>
+  </data>
+  <data name="&gt;&gt;lblserialNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblserialNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblserialNumber.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="txtcallName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12pt, style=Bold</value>
+  </data>
+  <data name="txtcallName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 255</value>
+  </data>
+  <data name="txtcallName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txtcallName.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtcallName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 36</value>
+  </data>
+  <data name="txtcallName.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="&gt;&gt;txtcallName.Name" xml:space="preserve">
+    <value>txtcallName</value>
+  </data>
+  <data name="&gt;&gt;txtcallName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtcallName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtcallName.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblcallName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblcallName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="lblcallName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 262</value>
+  </data>
+  <data name="lblcallName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="lblcallName.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="lblcallName.Text" xml:space="preserve">
+    <value>Caller Name</value>
+  </data>
+  <data name="&gt;&gt;lblcallName.Name" xml:space="preserve">
+    <value>lblcallName</value>
+  </data>
+  <data name="&gt;&gt;lblcallName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblcallName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblcallName.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="txtopName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12pt, style=Bold</value>
+  </data>
+  <data name="txtopName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 202</value>
+  </data>
+  <data name="txtopName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txtopName.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtopName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 36</value>
+  </data>
+  <data name="txtopName.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="&gt;&gt;txtopName.Name" xml:space="preserve">
+    <value>txtopName</value>
+  </data>
+  <data name="&gt;&gt;txtopName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtopName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtopName.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lblopName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblopName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="lblopName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 209</value>
+  </data>
+  <data name="lblopName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 29</value>
+  </data>
+  <data name="lblopName.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="lblopName.Text" xml:space="preserve">
+    <value>Operator ID</value>
+  </data>
+  <data name="&gt;&gt;lblopName.Name" xml:space="preserve">
+    <value>lblopName</value>
+  </data>
+  <data name="&gt;&gt;lblopName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblopName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblopName.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="txtspecialist.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12pt, style=Bold</value>
+  </data>
+  <data name="txtspecialist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 416</value>
+  </data>
+  <data name="txtspecialist.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txtspecialist.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtspecialist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 36</value>
+  </data>
+  <data name="txtspecialist.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="&gt;&gt;txtspecialist.Name" xml:space="preserve">
+    <value>txtspecialist</value>
+  </data>
+  <data name="&gt;&gt;txtspecialist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtspecialist.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtspecialist.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblspecialist.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblspecialist.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="lblspecialist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 423</value>
+  </data>
+  <data name="lblspecialist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 29</value>
+  </data>
+  <data name="lblspecialist.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="lblspecialist.Text" xml:space="preserve">
+    <value>Specialist</value>
+  </data>
+  <data name="&gt;&gt;lblspecialist.Name" xml:space="preserve">
+    <value>lblspecialist</value>
+  </data>
+  <data name="&gt;&gt;lblspecialist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblspecialist.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblspecialist.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtsolution.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12pt, style=Bold</value>
+  </data>
+  <data name="txtsolution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 468</value>
+  </data>
+  <data name="txtsolution.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txtsolution.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtsolution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 91</value>
+  </data>
+  <data name="txtsolution.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="&gt;&gt;txtsolution.Name" xml:space="preserve">
+    <value>txtsolution</value>
+  </data>
+  <data name="&gt;&gt;txtsolution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtsolution.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtsolution.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 469</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 29</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Solution</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lbltimeDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbltimeDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="lbltimeDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 578</value>
+  </data>
+  <data name="lbltimeDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 29</value>
+  </data>
+  <data name="lbltimeDate.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="lbltimeDate.Text" xml:space="preserve">
+    <value>Time Taken</value>
+  </data>
+  <data name="&gt;&gt;lbltimeDate.Name" xml:space="preserve">
+    <value>lbltimeDate</value>
+  </data>
+  <data name="&gt;&gt;lbltimeDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbltimeDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbltimeDate.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnshow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnshow.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnshow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="btnshow.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAeJJREFUWEftl7dOBDEQhk8iNIjUguhIJek5EPAqpAcglIhUguA1iI9BaKGGAhEq
+        wv9ZN9LpwLvjvUUH0n3SJ63NrNfn9XqGSov/xphclefyWj5X5fpMrshRWToz8lJ+OmWCk7JhOuS+/JAM
+        /CgP5KxkNbqqcj0nDyUxxHLPnmyXheiX9qtf5LrskXn0SmLfJPdeVPuS6JTcyAB3sshyTsl7aZNok252
+        JTcywAAdBRmUNokdOjyw4Xh/r7KMjTQtGYsxWZVcbOnXQqscNiRj8qlmMi4JfJCeDUcs5sEmZExiR+iI
+        wUFCEJ+aB+8E4EgSuxRaEVgigvimPaRMYEESexpaEW4lQd7jNGUCjEnsTWhFeJIEdYfWd+yBef4EY/I3
+        nhGl6RNo+iuwTTgfWvmkTMA24UloRViWBJHVPKRM4FgSuxhaEUirBP3mQTRMRxYUEwRyfJbFpmTMzDPA
+        IHlYMuK6UUhujPUuJ+jwUJuOSalFGZKWjrfp8EIZZVmRAVxptA5+uT2cryupIAE2jn2WLCFlVp/Mgxje
+        uZVkvPfkksxgJSgseX8MRsFJViNZkbqtKOWas4O/WVHKPVuycFFaC5WRrYZHDptSyvJ6KCY4rFhW+8eE
+        s/1K8lByfWbB0eKPUal8AV7BuJ9ME1GGAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnshow.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnshow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 101</value>
+  </data>
+  <data name="btnshow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btnshow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 41</value>
+  </data>
+  <data name="btnshow.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="btnshow.Text" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="btnshow.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnshow.Name" xml:space="preserve">
+    <value>btnshow</value>
+  </data>
+  <data name="&gt;&gt;btnshow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnshow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnshow.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABsAAAAaCAYAAABGiCfwAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAA7RJREFUSEu1lk1IVFEUx09OU6hIjopELhSTAgUDRXKhRBtBRF2EuUlcCEFI1tDC
+        CHGj4CJRUjcJ4SZSxIWDht/fml/4gYqBmKljMmij47ejjtP5P73Tm+dTs3Lx5/Huu+/83v+ce8991NbW
+        Rg0NDdTc3CxdhXAPmc1m2trakrS7u0tWq5UODg7o8PDwTLW2tlJvby9NTk5qcnJyEoOCgrouDTY0NESN
+        jY266Ojoz0RkZ1kvBWa326mioiLY19f32zHocmAADQ8P39VqtUsy0P+HATQzM3Pb3d3drAD9Pcxms50Q
+        YKurq14hISFjKqCLw3Z2diQBKhc+AK7i4+NrVSBCexeCIagSBAFUWFj4SgUg1/6FYJubmycEp2NjY/fc
+        3NxWVABy2f4ZBleRkZHdKsFP6ixYe3s7iu6AbW9vOwmg4uJivWpghRISEt6dChsYGKD+/n4Nw7SiNkjZ
+        2toara+vS66mpqbuaDSabbXgQp6ensb8/PyH3d1sXgnDdWRkhKqqqgJCQ0Pby8rKUoxGI83PzxOuAALE
+        cG1ycnK5GkAoODj4S319vdfg4CAZDIbfsJaWFurp6YEb0uv1z7gDWPBCYGDgV6SQXdDs7KyUzv39fers
+        7HygDC5XTEzMJ3bjhgzV1dVRdXX1EQxuRkdHMXArKiqKR51frKysjLNYLLS4uCilEbXS6XQm5TyhpKSk
+        9xMTE9TVddTo2d0RDN0Z9KysrBRXV1dlP5Pk7+8/h/SZTCYJlpeX91ptHsuWkZFRgiywcylbTrCCggLv
+        8PDwTpUX5bJx7Z7A2cLCwk0/Pz95N3coLS3tA1zjgwBqampyhuXm5uq40G8CAgJG1AII8Qd18cq8Vlpa
+        +lTteWJiogEgoeXlZQniBKupqZEWCBfxanZ29iMfH5/vasEg3nf3eSn/UI5znbvZzQ00Y9GYAZybm5Pc
+        OWBcfCovL6fa2lrq6+sD1J1X0kcOYlMG9fb2XlSOeXh4/ES3R3CsUiEcQxhD7RyrETA+VaUbuOzo6KDx
+        8XFKT09/oQyslIuLi5X7YiiC7u3tnRDGsZlPhcEyvgarr6io6KUa5FgHJSUlzzl1V9C6MF9IfhqcC8PG
+        Rho49y6ZmZlvVUD22NjYBgQTgeUCHNc/gk1PT0sTxVGfmpqKGjpAvB8tfLZdx3N5nUStBPRcGBbKxsaG
+        E4zzr42LixO/ZHbum48RFPPkxw0atHB1LgzNEj+XAiSEew7mERYW9iUiIqKFIdqlpSVpL8m1srJyRs2q
+        6RePQ7leP8QrFwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="button1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 629</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 36</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="button1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>707, 135</value>
+  </data>
+  <data name="dataGridView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>624, 527</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 24pt, style=Bold</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 22</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 45</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Resolution log</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txttimetaken.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12pt, style=Bold</value>
+  </data>
+  <data name="txttimetaken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 578</value>
+  </data>
+  <data name="txttimetaken.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txttimetaken.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txttimetaken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 36</value>
+  </data>
+  <data name="txttimetaken.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="&gt;&gt;txttimetaken.Name" xml:space="preserve">
+    <value>txttimetaken</value>
+  </data>
+  <data name="&gt;&gt;txttimetaken.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txttimetaken.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txttimetaken.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtprblmtype.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12pt, style=Bold</value>
+  </data>
+  <data name="txtprblmtype.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 304</value>
+  </data>
+  <data name="txtprblmtype.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txtprblmtype.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtprblmtype.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 36</value>
+  </data>
+  <data name="txtprblmtype.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="&gt;&gt;txtprblmtype.Name" xml:space="preserve">
+    <value>txtprblmtype</value>
+  </data>
+  <data name="&gt;&gt;txtprblmtype.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtprblmtype.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtprblmtype.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="button2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAeJJREFUWEftl7dOBDEQhk8iNIjUguhIJek5EPAqpAcglIhUguA1iI9BaKGGAhEq
+        wv9ZN9LpwLvjvUUH0n3SJ63NrNfn9XqGSov/xphclefyWj5X5fpMrshRWToz8lJ+OmWCk7JhOuS+/JAM
+        /CgP5KxkNbqqcj0nDyUxxHLPnmyXheiX9qtf5LrskXn0SmLfJPdeVPuS6JTcyAB3sshyTsl7aZNok252
+        JTcywAAdBRmUNokdOjyw4Xh/r7KMjTQtGYsxWZVcbOnXQqscNiRj8qlmMi4JfJCeDUcs5sEmZExiR+iI
+        wUFCEJ+aB+8E4EgSuxRaEVgigvimPaRMYEESexpaEW4lQd7jNGUCjEnsTWhFeJIEdYfWd+yBef4EY/I3
+        nhGl6RNo+iuwTTgfWvmkTMA24UloRViWBJHVPKRM4FgSuxhaEUirBP3mQTRMRxYUEwRyfJbFpmTMzDPA
+        IHlYMuK6UUhujPUuJ+jwUJuOSalFGZKWjrfp8EIZZVmRAVxptA5+uT2cryupIAE2jn2WLCFlVp/Mgxje
+        uZVkvPfkksxgJSgseX8MRsFJViNZkbqtKOWas4O/WVHKPVuycFFaC5WRrYZHDptSyvJ6KCY4rFhW+8eE
+        s/1K8lByfWbB0eKPUal8AV7BuJ9ME1GGAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="button2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 149</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 41</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>177</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="button2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtprblmId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12pt, style=Bold</value>
+  </data>
+  <data name="txtprblmId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 153</value>
+  </data>
+  <data name="txtprblmId.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txtprblmId.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtprblmId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 36</value>
+  </data>
+  <data name="txtprblmId.TabIndex" type="System.Int32, mscorlib">
+    <value>179</value>
+  </data>
+  <data name="&gt;&gt;txtprblmId.Name" xml:space="preserve">
+    <value>txtprblmId</value>
+  </data>
+  <data name="&gt;&gt;txtprblmId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtprblmId.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtprblmId.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 160</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 29</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Problem ID</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnlogOut.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnlogOut.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnlogOut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 13.8pt, style=Bold</value>
+  </data>
+  <data name="btnlogOut.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAALZJREFUWEftk1sKwkAMRccV+CW4chfmj8vROWggSjDJkGKFHLh0mrbc09domuaf
+        OM/cZu4FSVNZTlLocrbsr5IWqCyHlIBXfpg5PpdvMOOYRVggUn6Zuc6cGLxgzYxjlkRIwCsH7pIizhEJ
+        KZeZ9XRcgUi58Fmo1/qpaL4KcFG0XNASXjnsWwB++gqEiMRmH6HgSWz6GwoRCesumVnlkBIATyJLWgAq
+        JZYEQEtUZIlKiaZp9sIYD8JdsTea/2sgAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnlogOut.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnlogOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1126, 12</value>
+  </data>
+  <data name="btnlogOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 53</value>
+  </data>
+  <data name="btnlogOut.TabIndex" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="btnlogOut.Text" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="btnlogOut.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnlogOut.Name" xml:space="preserve">
+    <value>btnlogOut</value>
+  </data>
+  <data name="&gt;&gt;btnlogOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnlogOut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnlogOut.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1343, 676</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form4</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form4</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
